@@ -7,7 +7,7 @@ def decimal_a_binario(decimal,  string):
         string = division + string
         decimal_a_binario(decimal//2, string)
     else:
-        print(string)
+        print(str(string).zfill(8))
 
 entrada = input("Ingrese el decimal a convertir: ")
 
